@@ -10,7 +10,9 @@ export default function Home() {
       <div>
         <Htag tag="h1">This Htag</Htag>
         <Button color="brown">ПОДПИСАТЬСЯ</Button>
-        <Button color="white">избранные</Button>
+        <Button color="white" icon={true}>
+          в избранные
+        </Button>
       </div>
     </>
   );
